@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url('../img/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #f7f2ec;
+  color: #4b3b2b;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-brown {
+  background-color: #6f4e37
+}
+
+.nav-link:hover {
+  color: #d2691e;
+  text-decoration: underline;
+}
+
+main.container {
+  margin-top: 80px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+}
+
+main.container h2, main.container p {
+  color: #4b3621;
+}
+
+img.logo {
+  width: 40px;
+  height: auto;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
